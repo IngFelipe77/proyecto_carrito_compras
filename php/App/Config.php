@@ -28,13 +28,13 @@ class Config {
      * Base de datos, usuario
      * @var string
      */
-    const DB_USER = 'root';
+    const DB_USER = 'carrito';
 
     /**
      * Base de datos, contraseña
      * @var string
      */
-    const DB_PASSWORD = 'USAC123';
+    const DB_PASSWORD = 'una_clave';
 
     /**
      * Muestra u oculta los mensajes de error en pantalla
@@ -46,5 +46,5 @@ class Config {
      * Nombre del Host de la maquina
      * @var string
      */
-    public const HOST = 'carrito-compra.com'; //HTTP_HOST;
+    public const HOST = 'carrito-compra.localhost'; //HTTP_HOST;
 }
