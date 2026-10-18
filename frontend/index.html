@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarritoGT</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<header class="barra">
+    <div>
+        <h1>CarritoGT</h1>
+        <p>Carrito de compra con Spring Boot y JavaScript</p>
+    </div>
+    <div class="contador">Carrito: <span id="contador">0</span> unidades</div>
+</header>
+
+<p id="mensaje" hidden></p>
+
+<main>
+    <section>
+        <h2>Productos</h2>
+        <div id="lista-productos" class="productos"></div>
+    </section>
+
+    <section>
+        <h2>Tu carrito</h2>
+        <div id="zona-carrito"></div>
+        <button id="btn-vaciar" class="boton secundario" type="button" hidden>Vaciar carrito</button>
+    </section>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
